@@ -1,0 +1,62 @@
+*{
+    padding: 0px 0px ;
+    margin: 0px 0px;
+    font-family: "Gill Sans", sans-serif;
+}
+body{
+    background-color: rgb(143, 248, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 163, 32);
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+.main-heading{
+    color: grey;
+    margin-bottom: 20px;
+    
+}
+.input{
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 10px;
+    color: rgb(80, 78, 78);
+}
+.button{
+    background-color: rgb(35, 156, 238);
+    color: white;
+    border: 0px;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+.input-contianer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.WrongUrl{
+    font-size: 13px;
+    color: red;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.copybtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
